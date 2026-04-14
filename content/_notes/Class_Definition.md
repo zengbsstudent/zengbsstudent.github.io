@@ -4,10 +4,6 @@ draft: false
 render_with_liquid: false
 ---
 
-{% raw %}
----
-
----
 
 1. If two classes have members with the same name, the program is not in error and the members refer to different objects.
 2. It is not necessary to declare the two members of type short separately.
@@ -20,7 +16,7 @@ render_with_liquid: false
 9. A private member can be accessed only by the member functions and friends of its class.
    ```c++
    #include <iostream>
-   
+
    class Screen {
       friend std::istream& operator>>( std::istream&,       Screen& );
       friend std::ostream& operator<<( std::ostream&, const Screen& );
@@ -31,29 +27,29 @@ render_with_liquid: false
       int _width;
       int _height;
    };
-   
+
    std::ostream& operator<<( std::ostream& os, const Screen& s )
    {
       os << "height = " << s._height << "\n";
       os << "width  = " << s._width  << "\n";
       return os;
    }
-   
-   
+
+
    std::istream& operator>>( std::istream& is, Screen& s )
    {
       std::cout << "Enter height and width: ";
       is >> s._height >> s._width;
       return is;
    }
-   
+
    int main() {
-   
+
       Screen s(1,2);
       std::cout << s;
       std::cin >> s;
       std::cout << s;
-   
+
       return 0;
    }
    ```
@@ -72,4 +68,3 @@ render_with_liquid: false
        LinkScreen *prev; // ok
     };
     ```
-{% endraw %}
