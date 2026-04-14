@@ -7,21 +7,21 @@ title: Note on CUDA programming
 CUDA execution model
 ---
 - [Programming Model]({{ "/notes/Programming_Model" | relative_url }})
-- [Compilation Workflow]({{ "/notes/Compilation_Workflow" | relative_url }})
+- [Compilation Workflow]({{ "/notes/Compilation_with_NVCC" | relative_url }})
 
 
 
 Global memory
 ---
 - [Memory architecture]({{ "/notes/Memory_architecture" | relative_url }})
-- [Memory management]({{ "/notes/Memory_management" | relative_url }})
+- [Memory management]({{ "/notes/Memory_management_global_memory" | relative_url }})
 - [Memory access pattern]({{ "/notes/Memory_access_pattern" | relative_url }})
 
 Shared memory and constant memory
 ---
-- [Configurations of Shared Memory]({{ "/notes/Configurations_of_Shared_Memory" | relative_url }})
-- [Bank conflict]({{ "/notes/Bank_conflict" | relative_url }})
-- [Synchronization of Shared Memory]({{ "/notes/Synchronization_of_Shared_Memory" | relative_url }})
+- [Configurations of Shared Memory]({{ "/notes/Shared_Memory_Banks_and_Access_Mode" | relative_url }})
+- [Bank conflict]({{ "/notes/Bank_Conflict" | relative_url }})
+- [Synchronization of Shared Memory]({{ "/notes/Synchronization_of_Memory" | relative_url }})
 - [Warp Shuffles]({{ "/notes/Warp_Shuffles" | relative_url }})
 
 
