@@ -1,3 +1,5 @@
+layouts_dir: _layout
+
 collections:
   notes:
     output: true
