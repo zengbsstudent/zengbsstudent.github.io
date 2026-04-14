@@ -4,10 +4,6 @@ draft: false
 render_with_liquid: false
 ---
 
-{% raw %}
----
-
----
 
 - [Rules for Special Member Functions]({{ "/notes/Rules_for_Special_Member_Functions" | relative_url }})
 - [Tips of Rule of Five]({{ "/notes/Tips_of_Rule_of_Five" | relative_url }})
@@ -22,4 +18,3 @@ render_with_liquid: false
 - [Move-Only Types]({{ "/notes/Move-Only_Types" | relative_url }})
 - [Moving Algorithms and Iterators]({{ "/notes/Moving_Algorithms_and_Iterators" | relative_url }})
 - [Move Semantics in Types of the C++ Standard Library]({{ "/notes/Move_Semantics_in_Types_of_the_C++_Standard_Library" | relative_url }})
-{% endraw %}
